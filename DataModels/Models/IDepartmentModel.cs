@@ -3,7 +3,7 @@
 	public interface IDepartmentModel : IId
 	{
 		string Name { get; }
-		int	TeacherId { get; }
+		Dictionary<int, ITeacherModel> DepartmentTeachers { get; }
 		string Address { get; }
 	}
 }

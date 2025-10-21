@@ -7,7 +7,7 @@ namespace DataModels.Models
 		string Name { get; }
 		int TeacherId { get; }
 		int Year { get; }
-		string Status { get; }
+		ScientificWorkStatus Status { get; }
 		ScientificWorkType Type { get; }
 		decimal? FundingAmount { get; }
 	}

@@ -2,10 +2,11 @@
 {
 	public enum ParticipantRole
 	{
-		Leader = 1,          
-		CoLeader = 2,       
-		Researcher = 3,     
-		Consultant = 4,   
-		TechnicalStaff = 5
+		None = -1,
+		Leader = 0,          
+		CoLeader = 1,       
+		Researcher = 2,     
+		Consultant = 3,   
+		TechnicalStaff = 4
 	}
 }

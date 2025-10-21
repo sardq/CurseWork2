@@ -1,12 +1,14 @@
-﻿namespace DataModels.Models
+﻿using DataModels.Enums;
+
+namespace DataModels.Models
 {
 	public interface ITeacherModel : IId
 	{
 		string FullName { get; }
-		string AcademicDegree { get; }
+		AcademicDegreeEnum AcademicDegree { get; }
 		decimal Rate { get; }
-		string Position { get; }
-		string Category { get; }
+		TeacherPositionEnum Position { get; }
+		TeacherCategoryEnum Category { get; }
 		int DepartmentId { get; }
 	}
 }

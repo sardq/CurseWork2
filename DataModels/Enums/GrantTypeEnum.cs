@@ -1,17 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DataModels.Enums
+﻿namespace DataModels.Enums
 {
 	public enum GrantTypeEnum
 	{
-		Government = 1,      
-		Internal = 2,        
-		Contractual = 3,     
-		International = 4,   
-		Other = 5           
+		None = -1,
+		Government = 0,      
+		Internal = 1,        
+		Contractual = 2,     
+		International = 3,   
+		Other = 4           
 	}
 }

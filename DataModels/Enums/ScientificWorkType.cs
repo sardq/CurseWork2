@@ -2,6 +2,7 @@
 {
 	public enum ScientificWorkType
 	{
+		None = 0,
 		Publication = 1,     
 		Grant = 2,           
 		ResearchProject = 3, 
