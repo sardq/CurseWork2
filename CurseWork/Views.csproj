@@ -8,4 +8,18 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.20">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="NLog.Extensions.Logging" Version="6.0.5" />
+    <PackageReference Include="ReportViewerCore.WinForms" Version="15.1.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BuisinessLogic\BuisinessLogic.csproj" />
+    <ProjectReference Include="..\DatabaseImplement\DatabaseImplement.csproj" />
+  </ItemGroup>
+
 </Project>
