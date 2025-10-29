@@ -60,10 +60,10 @@ namespace BuisinessLogic.BusinessLogic
 			return true;
 		}
 
-		public bool Update(DepartmentBindingModel model)
+		public bool Update(DepartmentBindingModel model, bool updateTeacher)
 		{
 			CheckModel(model);
-			if (_departmentStorage.Update(model) == null)
+			if (_departmentStorage.Update(model, updateTeacher) == null)
 			{
 				_logger.LogWarning("Update operation failed");
 				return false;

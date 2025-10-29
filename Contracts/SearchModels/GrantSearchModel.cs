@@ -6,6 +6,7 @@ namespace Contracts.SearchModels
 	{
 		public int? Id { get; set; }
 		public string? Name { get; set; }
+		public int? TeacherId { get; set; }
 		public int? Year { get; set; }
 		public GrantStatus? Status { get; set; }
 		public GrantTypeEnum? Type { get; set; }

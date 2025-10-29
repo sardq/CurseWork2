@@ -12,7 +12,7 @@ namespace Contracts.BusinessLogicContracts
 
 		bool Create(DepartmentBindingModel model);
 
-		bool Update(DepartmentBindingModel model);
+		bool Update(DepartmentBindingModel model, bool updateTeacher);
 
 		bool Delete(DepartmentBindingModel model);
 	}

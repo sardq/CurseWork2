@@ -14,7 +14,7 @@ namespace Contracts.StorageContracts
 
 		DepartmentViewModel? Insert(DepartmentBindingModel model);
 
-		DepartmentViewModel? Update(DepartmentBindingModel model);
+		DepartmentViewModel? Update(DepartmentBindingModel model, bool updateTeachers);
 
 		DepartmentViewModel? Delete(DepartmentBindingModel model);
 	}
